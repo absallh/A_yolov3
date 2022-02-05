@@ -9,7 +9,7 @@ import test  # import test.py to get mAP after each epoch
 from models import *
 from utils.datasets import *
 from utils.utils import *
-from summary import summary
+from torchsummary import summary
 
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
